@@ -1,0 +1,384 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+}
+
+.logo{
+    background-color: white ;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    background-color: #00539f;
+    color:black
+}
+
+.logo {
+    height: 40px;
+}
+
+.top-nav nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 350px;
+}
+
+.top-nav nav ul li {
+    margin-left: 20px;
+}
+
+.top-nav nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav nav ul li a:hover {
+    text-decoration: underline;
+}
+.main-nav {
+    display: flex;                  
+    justify-content: space-between;        
+    align-items: center;          
+    padding: 20px 50px;     
+    background-color: #fff;    
+    color: #000;               
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    position: relative;             
+    z-index: 10;         
+}
+
+
+
+.main-nav nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav nav ul li {
+    margin-left: 70px;
+}
+
+.main-nav nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.mycover{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container h1{
+    padding-top: 200px;
+    position: absolute;
+}
+
+.container p{
+    padding-top: 280px;
+    padding-left: 50px;
+    position: absolute;
+
+}
+.apply-button {
+    background-color: white;       
+    border: 2px solid #003366;
+    color: #003366;          
+    padding: 10px 20px;           
+    text-decoration: none;           
+    font-weight: bold;                
+    border-radius: 5px;              
+    cursor: pointer;                  
+    transition: background-color 0.3s, color 0.3s; 
+                     }
+
+
+.apply-button:hover {
+    background-color: #003366;    
+    color: white;                 
+}
+
+
+.apply-button:hover {
+    background-color: #e6b800;
+}
+
+.banner {
+    background: url('banner-background.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+header .top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0077b3;
+    padding: 10px 0;
+}
+
+header .top-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header .top-bar a:hover {
+    text-decoration: underline;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+}
+
+header .icons img {
+    height: 20px;
+    margin: 0 10px;
+}
+
+
+.promo {
+    background-color: #f0f0f0;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.promo h2 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.promo p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.promo-sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo-item {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promo-item img {
+    height: 50px;
+}
+
+.promo-item h3 {
+    font-size: 1.5em;
+    color: #003366;
+}
+
+.promo-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.change-monash, .global-affairs, .rankings, .impact-2030, .monash-explorer, .latest-news, .monash-change-day, .monash-life, footer {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.change-monash h2, .global-affairs h2, .rankings h2, .impact-2030 h2, .monash-explorer h2, .latest-news h2, .monash-change-day h2, .monash-life h2, footer h2 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.change-monash p, .global-affairs p, .rankings p, .impact-2030 p, .monash-explorer p, .latest-news p, .monash-change-day p, .monash-life p, footer p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.change-monash .video-placeholder, .global-affairs .global-affairs-image, .rankings .ranking, .impact-2030 .impact-video, .monash-explorer .explorer-image, .latest-news .news-image, .monash-change-day .change-day-banner, .monash-life .life-sections .life-item, footer .footer-category {
+    margin-top: 20px;
+}
+
+.change-monash .video-placeholder img, .global-affairs .global-affairs-image img, .rankings .ranking img, .impact-2030 .impact-video img, .monash-explorer .explorer-image img, .latest-news .news-image img, .monash-change-day .change-day-banner img, .monash-life .life-sections .life-item img, footer .footer-category img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.monash-explorer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.monash-explorer button:hover {
+    background-color: #0056b3;
+}
+
+.latest-news .news-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.latest-news .news-item h3 {
+    font-size: 1.5em;
+    color: #003366;
+}
+
+.latest-news .news-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.latest-news .news-item .date, .latest-news .news-item .source {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.latest-news .news-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.latest-news .news-item a:hover {
+    text-decoration: underline;
+}
+
+.monash-life .life-sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monash-life .life-item {
+    width: 45%;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.monash-life .life-item img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footer-top {
+    background-color: #616161;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-top .social-media a img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    background-color: #616161 ;
+    padding: 20px;
+    text-align: left;
+    decoration:none
+    
+}
+.acknowledge{
+    color:white;
+}
+
+.footer-category {
+    width: 18%;
+}
+
+.footer-category h4 {
+    font-size: 1.2em;
+    color: white;
+}
+
+.footer-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-category ul li {
+    margin: 10px 0;
+}
+
+.footer-category ul li a {
+    color: bl   ack;
+    text-decoration: none;
+}
+
+.footer-category ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
